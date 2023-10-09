@@ -1,0 +1,100 @@
+.navbar{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar>figure.logo{
+    flex: 6;
+    margin-right: 30px;  
+}
+
+.navbar>.menu{
+    display: none;
+}
+
+/* hamburger menu */
+
+section.hamburger-menu{
+    display: block;
+    text-align: left;  
+}
+
+label[for=show] svg{
+    height: 28px;
+    margin-left: 30px;
+    fill: #273c6e;
+    cursor: pointer;
+}
+
+nav.hamburgermenu{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 47;
+    background-color: white;
+    border-end-start-radius: 18px;
+    border-end-end-radius: 18px;
+    overflow: hidden;
+    text-align: right;
+    transition: 600ms;
+    
+} 
+
+nav.hamburgermenu>ul>li{
+    height: auto;
+    padding: 20px 40px;
+    transition: 400ms;
+}
+
+nav.hamburgermenu>ul>li:hover{
+    background-color: #273c6e34;
+}
+
+nav.hamburgermenu>ul>li:last-child:not(:hover){
+    background-color: #eeeeee;
+}
+
+nav.hamburgermenu>ul>li>a{
+    width: 40%;
+    display: inline-block;
+    color: #303030;
+}
+
+nav.hamburgermenu>ul>li:nth-of-type(6)>a{
+    color: #28457b;
+    font-size: 20px;
+}
+
+nav.hamburgermenu>ul>li:nth-of-type(6)>a>svg{
+    height: 20px;
+    fill: #28457b;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+nav.hamburgermenu label[for=close]>svg{
+    height: 28px;
+    fill: #273c6e;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    cursor: pointer;
+}
+
+#show:checked~nav.hamburgermenu{
+    top: 0;
+}
+
+#close:checked~nav.hamburgermenu{
+    top:-500px
+}
+
+#show,#close{
+    display: none;
+}

@@ -1,0 +1,30 @@
+section.joinbox{
+    width: 92%;
+    height: 230px;
+    border: 1px solid #c3c6cd;
+    border-radius: 20px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+section.joinbox>h2{
+    font-family: iry-h;
+    font-size: 28px;
+    color: #303030;
+    margin-top: 22px;
+}
+
+section.joinbox>p{
+    font-size: 22px;
+    color: #747480;
+    margin-top: 22px;
+}
+
+section.joinbox>a{
+    display: inline-block;
+    background-color: yellow;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: black;
+    margin-top: 22px;
+}

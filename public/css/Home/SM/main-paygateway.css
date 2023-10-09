@@ -1,0 +1,57 @@
+section.paygateway{
+    width: 92%;
+    height: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+}
+
+section.paygateway>figure.image{
+    flex: 6;
+    background-image: url(https://www.zarinpal.com/assets/images/pg.svg?fcb7e851df9bbca0ac18e18975ff671c);
+    background-repeat: no-repeat;
+    transform: translateX(12%);
+}
+
+section.paygateway>article.description{
+    flex: 6;
+    padding: 50px 30px;
+    line-height: 40px;
+}
+
+section.paygateway>article.description>h3{
+    font-size: 22px;
+    color: #747480d4;
+    margin-bottom: 8px;
+}
+
+section.paygateway>article.description>h2{
+    font-family: iry-h;
+    font-size: 32px;
+    color: #303030;
+    margin-bottom: 12px;
+}
+
+section.paygateway>article.description>div.create{
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 25px;
+    border-top: 1px solid rgb(231, 226, 226);
+}
+
+section.paygateway>article.description>div.create>a{
+    padding: 6px 16px;
+    margin-left: 18px;
+    border-radius: 12px;
+}
+
+section.paygateway>article.description>div.create>a:nth-of-type(1){
+    color: #0c0b00;
+    background-color: #ffdc08;
+}
+
+section.paygateway>article.description>div.create>a:nth-of-type(2){
+    color: #28457b;
+    background-color: #f1f5fe;
+}

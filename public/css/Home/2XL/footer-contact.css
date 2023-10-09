@@ -1,0 +1,30 @@
+section.contact{
+    width: 1170px;
+    height: 80px;
+    background-color: #fbf6f1;
+    border-radius: 50px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.contact>section.info>article>span{
+    margin: 0 20px;
+    font-family: iry-h;
+    font-size: 20px;
+    color: #303030;
+}
+
+section.contact>section.info>article>span>span.number{
+    color: #21457f;
+    font-family: iry-h;
+    font-size: 24px;
+}
+
+section.contact>section.support>span>a{
+    font-size: 22px;
+    margin-left: 40px;
+    color: #21457f;
+}

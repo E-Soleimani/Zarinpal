@@ -1,0 +1,58 @@
+section.zarinlink{
+    width: 1170px;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center; 
+}
+
+section.zarinlink>figure.image{
+    widows: 100%;
+    flex: 6;
+    background-image: url(https://www.zarinpal.com/assets/images/social-image.svg?dccbec469eb82d98159f55e3e379c928);
+    background-repeat: no-repeat;
+}
+
+section.zarinlink>article.description{
+    width: 100%;
+    flex: 6;
+    padding: 50px 30px;
+    line-height: 40px;
+}
+
+section.zarinlink>article.description>h3{
+    font-size: 22px;
+    color: #747480d4;
+    margin-bottom: 8px;
+}
+
+section.zarinlink>article.description>h2{
+    font-family: iry-h;
+    font-size: 32px;
+    color: #303030;
+    margin-bottom: 12px;
+}
+
+section.zarinlink>article.description>div.create{
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 25px;
+    border-top: 1px solid rgb(231, 226, 226);
+}
+
+section.zarinlink>article.description>div.create>a{
+    padding: 6px 16px;
+    margin-left: 18px;
+    border-radius: 12px;
+}
+
+section.zarinlink>article.description>div.create>a:nth-of-type(1){
+    color: #0c0b00;
+    background-color: #ffdc08;
+}
+
+section.zarinlink>article.description>div.create>a:nth-of-type(2){
+    color: #28457b;
+    background-color: #f1f5fe;
+}
