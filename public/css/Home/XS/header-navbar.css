@@ -35,6 +35,7 @@ label[for=show] svg{
 nav.hamburgermenu{
     width: 100%;
     position: absolute;
+    top: 0;
     right: 0;
     z-index: 47;
     background-color: white;
@@ -43,7 +44,6 @@ nav.hamburgermenu{
     overflow: hidden;
     text-align: right;
     transition: 600ms;
-    
 } 
 
 nav.hamburgermenu>ul>li{
@@ -87,12 +87,12 @@ nav.hamburgermenu label[for=close]>svg{
     cursor: pointer;
 }
 
-#show:checked~nav.hamburgermenu{
-    top: 0;
-}
-
 #close:checked~nav.hamburgermenu{
     top:-500px
+}
+
+#show:checked~nav.hamburgermenu{
+    top: 0;
 }
 
 #show,#close{
